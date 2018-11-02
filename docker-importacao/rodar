@@ -1,0 +1,9 @@
+para build somente com DockerFile:
+sudo docker build . -t docker-importacao
+
+para Rodar somente com DockerFile:
+sudo docker container run -it docker-importacao
+
+
+outra opcao para rodar:
+sudo docker container run -v /app/tonini/docker/importacao/deployments:/opt/jboss/wildfly/standalone/deployments -p 8080:8080 -p 8787:8787 -it docker-importacao
