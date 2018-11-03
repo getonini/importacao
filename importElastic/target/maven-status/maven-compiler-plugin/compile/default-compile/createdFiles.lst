@@ -1,2 +1,2 @@
-com\tonini\importElastic\HelloWorldService.class
 com\tonini\jaxRSActiv\JaxRsActivator.class
+com\tonini\importElastic\FilmesService.class
